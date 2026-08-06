@@ -1,4 +1,5 @@
 'use client';
+import { useEffect, useState } from 'react';
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
       <h1 style={{ fontSize: '2rem', fontWeight: 900 }}>
         <span style={{ color: '#d32f2f' }}>Vox</span><span style={{ color: '#ffd700' }}>Telugu</span>
       </h1>
-      <p style={{ color: '#ffd700', marginTop: '10px' }}>నిజం • నిష్పక్షం • స్వరం - నెక్స్ట్-జెఎస్ వెర్షన్ లోడ్ అవుతోంది...</p>
+      <p style={{ color: '#ffd700', marginTop: '10px' }}>నిజం • నిష్పక్షం • స్వరం - పూర్తి ఫీచర్లతో యాప్ సిద్ధమవుతోంది...</p>
     </div>
   );
 }
